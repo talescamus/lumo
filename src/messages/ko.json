@@ -1,0 +1,207 @@
+{
+  "common": {
+    "welcome": "환영합니다",
+    "loading": "로딩 중...",
+    "error": "오류",
+    "save": "저장",
+    "cancel": "취소",
+    "delete": "삭제",
+    "edit": "편집",
+    "createAccount": "무료 계정 만들기",
+    "startNow": "지금 시작",
+    "brand": "Lumo"
+  },
+  "hero": {
+    "imageAlt": "Lumo 대시보드",
+    "badge": "트레이딩 SaaS 플랫폼",
+    "title": {
+      "line1": "당신의 여정을 구축하세요",
+      "highlight": "{brand}와 함께하는 트레이딩"
+    },
+    "description": "속도, 보안, 혁신을 결합한 트레이딩 SaaS 플랫폼입니다.",
+    "cta": {
+      "start": "투자 시작하기",
+      "demo": "데모 계정 보기"
+    },
+    "rating": "2FA 활성화",
+    "apis": "Binance/Bybit API (곧 제공)"
+  },
+  "header": {
+    "signIn": "로그인",
+    "signUp": "회원가입",
+    "dashboard": "대시보드",
+    "profile": "프로필",
+    "myProfile": "내 프로필",
+    "logout": "로그아웃",
+    "download": "다운로드",
+    "downloadApp": "앱 다운로드",
+    "notifications": "알림",
+    "noNotifications": "알림 없음"
+  },
+  "navbar": {
+    "buySell": {
+      "label": "매수/매도",
+      "market": "마켓",
+      "otc": "OTC"
+    },
+    "trade": {
+      "label": "거래",
+      "spot": "스팟",
+      "futures": "선물",
+      "newCoins": "신규 코인",
+      "trending": "트렌딩",
+      "perpetuos": "영구 계약",
+      "delivery": "디리버리 계약",
+      "alavancagem": "레버리지",
+      "bots": "트레이딩 봇",
+      "simulador": "시뮬레이터"
+    },
+    "institutional": {
+      "label": "기관용",
+      "about": "회사 소개",
+      "partners": "파트너"
+    },
+    "tutorials": {
+      "label": "튜토리얼",
+      "beginner": "초보자 가이드",
+      "advanced": "고급",
+      "blog": "블로그",
+      "help": "도움말"
+    },
+   "pricing": {
+    "getStarted": "지금 시작"
+  }
+},
+  "features": {
+    "verified": "✅ 전문 트레이더 검증",
+    "title": "고급 기능",
+    "heading": "{brand}를 선택해야 하는 이유",
+    "description": "스마트하고 안전하며 현대 트레이더를 위해 설계된 플랫폼으로 성능을 향상시키세요.",
+    "feature1": {
+      "title": "완전 자동화",
+      "description": "주문 예약, 봇 활성화, 24/7 자동 거래"
+    },
+    "feature2": {
+      "title": "은행 수준 보안",
+      "description": "안전한 거래소 연결 및 Supabase 인증"
+    },
+    "feature3": {
+      "title": "영구 & 디리버리",
+      "description": "영구 계약과 디리버리 계약을 하나의 플랫폼에서 지원"
+    },
+    "feature4": {
+      "title": "AI 봇",
+      "description": "머신러닝과 최적화 신호 기반 전략 조정"
+    },
+    "feature5": {
+      "title": "스마트 알림",
+      "description": "WhatsApp, Telegram 또는 이메일로 알림 수신"
+    },
+    "cta": "오늘 시작하고 {brand}와 함께 트레이딩을 한 단계 업그레이드하세요.",
+    "ctaButton": "무료 계정 만들기"
+  },
+  "notifications": {
+    "heading": "완벽한 제어",
+    "title": "알림 수신 방식을 선택하세요",
+    "subtitle": "원하는 채널을 활성화하여 중요한 알림을 받으세요.",
+    "toggleLabel": "활성화",
+    "footer": "모든 알림은 나중에 대시보드에서 조정할 수 있습니다.",
+    "email": {
+      "label": "이메일",
+      "description": "주문 및 신호 업데이트를 이메일로 받습니다."
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "WhatsApp으로 실시간 알림 수신. 빠른 결정에 이상적"
+    },
+    "telegram": {
+      "label": "Telegram",
+      "description": "Telegram 봇 연결 후 모든 내용을 쉽게 확인하세요."
+    }
+  },
+  "pricing": {
+  "getStarted": "시작하기",
+  "title": {
+    "line1": "당신을 위한 요금제",
+    "highlight": "자세한 내용은 문의하세요"
+  },
+  "description": "필요에 가장 적합한 요금제를 선택하세요. 모든 가격은 투명하며 숨겨진 수수료가 없습니다.",
+  "contactUs": "문의하기",
+  "savePercent": "{percent}% 절약",
+  "saveAnnual": "연간 요금제로 절약",
+  "fromPrice": "{price}부터",
+  "plans": {
+    "free": {
+      "name": "무료",
+      "price": "₩0",
+      "features": [
+        "제한된 접근",
+        "기본 지원",
+        "초기 기능"
+      ],
+      "button": "무료로 시작하기"
+    },
+    "pro": {
+      "name": "프로페셔널",
+      "price": "₩49/월",
+      "features": [
+        "전체 접근",
+        "우선 지원",
+        "고급 도구"
+      ],
+      "button": "지금 구독하기"
+    },
+    "enterprise": {
+      "name": "엔터프라이즈",
+      "price": "맞춤형",
+      "features": [
+        "맞춤 솔루션",
+        "전담 지원",
+        "고급 통합"
+      ],
+      "button": "문의하기"
+    }
+  }
+},
+  "BuiltUsingTools": {
+    "builtForLumo": "Lumo를 위해 구축됨"
+  },
+  
+  "howItWorks": {
+    "label": "작동 방식",
+    "heading": "트레이딩 자동화를 위한 4단계",
+    "description": "자동화와 보안으로 일상을 단순화하는 플랫폼",
+    "step1": {
+      "title": "주문 예약",
+      "description": "자산, 방향, 가격 및 실행 시간 설정"
+    },
+    "step2": {
+      "title": "봇 설정",
+      "description": "사전 설정 전략 선택 또는 AI로 맞춤화"
+    },
+    "step3": {
+      "title": "안전하게 실행",
+      "description": "거래소 공식 API를 통해 자동으로 주문 실행"
+    },
+    "step4": {
+      "title": "모니터링 및 확장",
+      "description": "실시간 성능 확인 및 전략에 따라 조정"
+    }
+  },
+  "navigation": {
+    "home": "홈",
+    "about": "회사 소개",
+    "contact": "연락처",
+    "profile": "프로필"
+  },
+  "pages": {
+    "home": {
+      "title": "홈 페이지",
+      "description": "우리 애플리케이션에 오신 것을 환영합니다"
+    },
+    "about": {
+      "title": "회사 소개",
+      "description": "우리에 대해 자세히 알아보기"
+    }
+  }
+}

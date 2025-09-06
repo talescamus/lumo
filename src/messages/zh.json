@@ -1,0 +1,208 @@
+{
+  "common": {
+    "welcome": "欢迎",
+    "loading": "加载中...",
+    "error": "错误",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "createAccount": "创建免费账户",
+    "startNow": "立即开始",
+    "brand": "Lumo"
+  },
+  "hero": {
+    "imageAlt": "Lumo 面板",
+    "badge": "交易 SaaS 平台",
+    "title": {
+      "line1": "打造您的旅程",
+      "highlight": "与 {brand} 一起交易"
+    },
+    "description": "结合速度、安全性和创新的交易 SaaS 平台。",
+    "cta": {
+      "start": "开始投资",
+      "demo": "查看模拟账户"
+    },
+    "rating": "已启用 2FA",
+    "apis": "Binance/Bybit API（即将推出）"
+  },
+  "header": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "dashboard": "仪表盘",
+    "profile": "个人资料",
+    "myProfile": "我的资料",
+    "logout": "退出",
+    "download": "下载",
+    "downloadApp": "下载应用",
+    "notifications": "通知",
+    "noNotifications": "暂无通知"
+  },
+  "navbar": {
+    "buySell": {
+      "label": "买/卖",
+      "market": "市场",
+      "otc": "OTC"
+    },
+    "trade": {
+      "label": "交易",
+      "spot": "现货",
+      "futures": "期货",
+      "newCoins": "新币",
+      "trending": "趋势",
+      "perpetuos": "永续合约",
+      "delivery": "交割合约",
+      "alavancagem": "杠杆",
+      "bots": "交易机器人",
+      "simulador": "模拟器"
+    },
+    "institutional": {
+      "label": "机构",
+      "about": "关于我们",
+      "partners": "合作伙伴"
+    },
+    "tutorials": {
+      "label": "教程",
+      "beginner": "初学者指南",
+      "advanced": "高级",
+      "blog": "博客",
+      "help": "帮助"
+    },
+    "pricing": {
+      "cta": "从 {plan} 开始"
+    }
+  },
+  "features": {
+    "verified": "✅ 专业交易员认证",
+    "title": "高级功能",
+    "heading": "为什么选择 {brand}？",
+    "description": "使用智能、安全、面向现代交易员的平台提升您的交易表现。",
+    "feature1": {
+      "title": "全面自动化",
+      "description": "预约订单、启用机器人，24/7 自动交易"
+    },
+    "feature2": {
+      "title": "银行级安全",
+      "description": "安全连接交易所并使用 Supabase 身份验证"
+    },
+    "feature3": {
+      "title": "永续 & 交割",
+      "description": "在一个平台上支持永续合约和交割合约"
+    },
+    "feature4": {
+      "title": "AI 机器人",
+      "description": "基于机器学习和优化信号调整策略"
+    },
+    "feature5": {
+      "title": "智能通知",
+      "description": "通过 WhatsApp、Telegram 或邮件接收通知"
+    },
+    "cta": "今天开始，让 {brand} 提升您的交易水平。",
+    "ctaButton": "创建免费账户"
+  },
+  "notifications": {
+    "heading": "完全控制",
+    "title": "选择您希望接收通知的方式",
+    "subtitle": "启用您喜欢的渠道以接收重要通知。",
+    "toggleLabel": "启用",
+    "footer": "所有通知可以稍后在控制面板中调整。",
+    "email": {
+      "label": "邮箱",
+      "description": "直接在收件箱接收订单和信号更新。"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "在 WhatsApp 上实时接收通知，适合快速决策。"
+    },
+    "telegram": {
+      "label": "Telegram",
+      "description": "连接 Telegram 机器人，轻松跟踪一切。"
+    }
+  },
+  "pricing": {
+  "getStarted": "立即开始",
+  "title": {
+    "line1": "为你量身定制的方案",
+    "highlight": "联系我们了解详情"
+  },
+  "description": "选择最适合你需求的方案。我们的价格透明，没有隐藏费用。",
+  "contactUs": "联系我们",
+  "savePercent": "节省 {percent}%",
+  "saveAnnual": "年度计划更优惠",
+  "fromPrice": "起价 {price}",
+  "plans": {
+    "free": {
+      "name": "免费",
+      "price": "¥0",
+      "features": [
+        "有限访问",
+        "基础支持",
+        "入门功能"
+      ],
+      "button": "免费开始"
+    },
+    "pro": {
+      "name": "专业版",
+      "price": "¥49/月",
+      "features": [
+        "完整访问",
+        "优先支持",
+        "高级工具"
+      ],
+      "button": "立即订阅"
+    },
+    "enterprise": {
+      "name": "企业版",
+      "price": "定制",
+      "features": [
+        "定制化解决方案",
+        "专属支持",
+        "高级集成"
+      ],
+      "button": "联系我们"
+    }
+  }
+},
+
+"BuiltUsingTools": {
+    "builtForLumo": "为 Lumo 构建"
+  },
+  
+  "howItWorks": {
+    "label": "工作原理",
+    "heading": "自动化交易的 4 个步骤",
+    "description": "我们的平台通过全面自动化和安全性简化您的日常工作。",
+    "step1": {
+      "title": "预约订单",
+      "description": "设置资产、方向、价格和执行时间"
+    },
+    "step2": {
+      "title": "配置机器人",
+      "description": "选择预设策略或使用 AI 个性化"
+    },
+    "step3": {
+      "title": "安全执行",
+      "description": "通过官方交易所 API 自动执行订单"
+    },
+    "step4": {
+      "title": "监控与扩展",
+      "description": "实时跟踪性能并根据策略进行调整"
+    }
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系",
+    "profile": "个人资料"
+  },
+  "pages": {
+    "home": {
+      "title": "主页",
+      "description": "欢迎使用我们的应用"
+    },
+    "about": {
+      "title": "关于",
+      "description": "了解更多关于我们的信息"
+    }
+  }
+}

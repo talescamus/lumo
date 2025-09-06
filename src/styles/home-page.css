@@ -1,0 +1,203 @@
+/* ================================
+   🔧 BASE BACKGROUND ELEMENTS
+   ================================ */
+.background-base {
+  position: absolute;
+  width: 100%;
+  min-height: 1400px;
+  z-index: -1;
+}
+
+.grid-bg {
+  background: url('/assets/background/grid-bg.svg') no-repeat;
+}
+
+.grain-background {
+  background: url('/assets/background/grain-bg.svg') repeat;
+}
+
+.grain-blur {
+  top: -220px;
+  background: url('/assets/background/grain-blur.svg') no-repeat center;
+}
+
+.large-blur {
+  position: absolute;
+  left: -30px;
+  top: -864px;
+  border-radius: 750px;
+  opacity: 0.2;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    rgba(117, 173, 255, 0.2) 0%,
+    rgba(117, 173, 255, 0) 70%,
+    rgba(117, 173, 255, 0) 100%
+  );
+}
+
+.small-blur {
+  background: url('/assets/background/small-blur.svg') no-repeat center;
+}
+
+/* ================================
+   ✨ FEATURED BADGE TEXT GRADIENT
+   ================================ */
+.featured-card-badge {
+  position: relative;
+  background: linear-gradient(90deg, #fff800 0%, #fffecc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featured-card-badge::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: -1px;
+  width: 48px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 15%,
+    rgba(255, 248, 0, 0.6) 50%,
+    rgba(255, 255, 255, 0) 85%
+  );
+}
+
+/* ================================
+   💳 PRICING CARD BORDER
+   ================================ */
+.pricing-card-border {
+  position: relative;
+}
+
+.pricing-card-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 1px 1px 0;
+  border-radius: 16px 16px 0 0;
+  background: linear-gradient(180deg, #414b4e 49.5%, rgba(65, 75, 78, 0) 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+/* ================================
+   📉 FOOTER BORDER HIGHLIGHT
+   ================================ */
+.footer-border {
+  position: relative;
+  background: linear-gradient(90deg, rgba(65, 75, 78, 0) 0%, #414b4e 49.5%, rgba(65, 75, 78, 0) 100%);
+}
+
+.footer-border::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-124px);
+  width: 248px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 15%,
+    rgba(255, 248, 0, 0.6) 50%,
+    rgba(255, 255, 255, 0) 85%
+  );
+}
+
+/* ================================
+   💰 FEATURED PRICING TITLE EFFECT
+   ================================ */
+.featured-price-title {
+  position: relative;
+}
+
+.featured-price-title::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 44px;
+  width: 296px;
+  height: 17px;
+  border-radius: 296px;
+  background: #fddd35;
+  opacity: 0.2;
+  filter: blur(32px);
+}
+
+.featured-price-title::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 94px;
+  width: 196px;
+  height: 4px;
+  border-radius: 196px;
+  background: #4d94ff;
+  opacity: 0.5;
+  filter: blur(12px);
+}
+
+/* ================================
+   ⚡ HIGHLIGHT BARS AND BLURS
+   ================================ */
+.featured-hard-blur-bg {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  transform: translateX(-44px);
+  width: 88px;
+  height: 4px;
+  background: #fff800;
+  opacity: 0.5;
+  filter: blur(12px);
+}
+
+.featured-yellow-highlight-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-124px);
+  width: 248px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 15%,
+    rgba(255, 248, 0, 0.6) 50%,
+    rgba(255, 255, 255, 0) 85%
+  );
+}
+
+.featured-vertical-hard-blur-bg {
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  transform: translateX(-64px);
+  width: 128px;
+  height: 280px;
+  border-radius: 280px;
+  background: #fff800;
+  opacity: 0.1;
+  filter: blur(48px);
+}
+
+.featured-soft-blur-bg {
+  position: absolute;
+  top: -19px;
+  left: 50%;
+  transform: translateX(-192px);
+  width: 384px;
+  height: 37px;
+  border-radius: 384px;
+  background: #fff800;
+  opacity: 0.3;
+  filter: blur(32px);
+}

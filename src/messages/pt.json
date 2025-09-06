@@ -1,0 +1,242 @@
+{
+  "common": {
+    "welcome": "Bem-vindo",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Deletar",
+    "edit": "Editar",
+    "createAccount": "Criar Conta Gratuita",
+    "startNow": "Comece agora",
+    "brand": "Lumo"
+  },
+  "hero": {
+    "imageAlt": "Painel da Lumo",
+    "badge": "Plataforma SaaS de Trading",
+    "title": {
+      "line1": "Construa sua jornada",
+      "highlight": "no trading com {brand}"
+    },
+    "description": "A plataforma SaaS de trading que une velocidade, segurança e inovação.",
+    "cta": {
+      "start": "Começar a investir",
+      "demo": "Ver conta demo"
+    },
+    "rating": "2FA habilitado",
+    "apis": "APIs Binance/Bybit (em breve)"
+  },
+  "header": {
+    "signIn": "Entrar",
+    "signUp": "Registrar",
+    "dashboard": "Painel",
+    "profile": "Perfil",
+    "myProfile": "Meu Perfil",
+    "logout": "Sair",
+    "download": "Download",
+    "downloadApp": "Baixar App",
+    "notifications": "Notificações",
+    "noNotifications": "Nenhuma notificação"
+  },
+  "navbar": {
+    "buySell": {
+      "label": "Comprar/Vender",
+      "market": "Mercado",
+      "otc": "OTC"
+    },
+    "trade": {
+      "label": "Negociar",
+      "spot": "Spot",
+      "futures": "Futuros",
+      "newCoins": "Novas Moedas",
+      "trending": "Tendências",
+      "perpetuos": "Perpétuos",
+      "delivery": "Contratos Delivery",
+      "alavancagem": "Alavancagem",
+      "bots": "Bots de Trading",
+      "simulador": "Simulador"
+    },
+    "institutional": {
+      "label": "Institucional",
+      "about": "Sobre Nós",
+      "partners": "Parcerias"
+    },
+    "tutorials": {
+      "label": "Tutoriais",
+      "beginner": "Guia para Iniciantes",
+      "advanced": "Avançado",
+      "blog": "Blog",
+      "help": "Ajuda"
+    },
+    "pricing": {
+      "cta": "Comece com {plan}"
+    }
+  },
+  "features": {
+    "verified": "✅ Verificado por Traders Profissionais",
+    "title": "Recursos Avançados",
+    "heading": "Por que escolher a {brand}?",
+    "description": "Potencialize sua performance com uma plataforma inteligente, segura e feita para o trader moderno.",
+    "feature1": {
+      "title": "Automação Total",
+      "description": "Agende ordens, ative bots e opere 24/7 sem intervenção manual."
+    },
+    "feature2": {
+      "title": "Segurança de Nível Bancário",
+      "description": "Conexão segura com exchanges e autenticação com Supabase."
+    },
+    "feature3": {
+      "title": "Perpétuos & Entrega",
+      "description": "Suporte nativo a contratos perpétuos e de entrega em uma única plataforma."
+    },
+    "feature4": {
+      "title": "Bots com IA",
+      "description": "Ajuste de estratégias com base em machine learning e sinais otimizados."
+    },
+    "feature5": {
+      "title": "Notificações Inteligentes",
+      "description": "Receba alertas via WhatsApp, Telegram ou e-mail conforme sua preferência."
+    },
+    "cta": "Comece hoje e leve seu trading para o próximo nível com {brand}.",
+    "ctaButton": "Criar Conta Gratuita"
+  },
+  "notifications": {
+    "heading": "Controle Total",
+    "title": "Escolha como quer ser notificado",
+    "subtitle": "Ative os canais que preferir para receber notificações importantes.",
+    "toggleLabel": "Ativado",
+    "footer": "Todas as notificações podem ser ajustadas depois no painel de controle.",
+    "email": {
+      "label": "E-mail",
+      "description": "Receba atualizações sobre suas ordens e sinais diretamente na sua caixa de entrada."
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "Seja notificado em tempo real no WhatsApp. Ideal para decisões rápidas."
+    },
+    "telegram": {
+      "label": "Telegram",
+      "description": "Conecte seu bot no Telegram e acompanhe tudo com praticidade."
+    }
+  },
+ "billing": {
+  "monthly": "Mensal",
+  "annual": "Anual",
+  "perUserMonth": "por usuário/mês",
+  "perUserYear": "por usuário/ano"
+},
+
+  "pricing": {
+    "getStarted": "Começar agora",
+    "title": {
+      "line1": "Planos feitos para você",
+      "highlight": "Consulte-nos para detalhes"
+    },
+    "description": "Escolha o plano que melhor atende às suas necessidades. Nossos preços são transparentes e sem taxas escondidas.",
+    "contactUs": "Consulte-nos",
+    "savePercent": "Economize {percent}%",
+    "saveAnnual": "Economize no plano anual",
+    "fromPrice": "De {price}",
+    "plans": {
+      "free": {
+        "name": "Grátis",
+        "price": "R$0",
+        "features": ["Acesso limitado", "Suporte básico", "Recursos iniciais"],
+        "button": "Começar grátis"
+      },
+      "pro": {
+        "name": "Profissional",
+        "price": "R$49/mês",
+        "features": ["Acesso completo", "Suporte prioritário", "Ferramentas avançadas"],
+        "button": "Assinar agora"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Personalizado",
+        "features": ["Soluções sob medida", "Suporte dedicado", "Integrações avançadas"],
+        "button": "Fale conosco"
+      }
+    },
+    "features": {
+      "premium": "Premium",
+      "new": "Novo"
+    }
+  },
+  "tiers": {
+    "starter": {
+      "name": "Starter",
+      "description": "Ideal para começar com automações básicas.",
+      "badge": "Grátis",
+      "features": {
+        "bot1": "1 Bot ativo",
+        "executionDelay": "Execução com atraso",
+        "exportCSV": "Exportar relatórios em CSV"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "Para traders que querem mais performance e recursos.",
+      "badge": "Mais Popular",
+      "features": {
+        "bot5": "Até 5 Bots ativos",
+        "instantExecution": "Execução instantânea",
+        "performanceCharts": "Gráficos de performance avançados",
+        "telegramNotifications": "Notificações via Telegram",
+        "emailSupport": "Suporte por email prioritário"
+      }
+    },
+    "advanced": {
+      "name": "Advanced",
+      "description": "Recursos completos para profissionais e equipes.",
+      "badge": "Profissional",
+      "features": {
+        "unlimitedBots": "Bots ilimitados",
+        "sso": "Login único (SSO)",
+        "strategyVersioning": "Controle de versões de estratégias",
+        "assetLibrary": "Biblioteca de ativos",
+        "earlyAccess": "Acesso antecipado a novos recursos",
+        "dedicatedSupport": "Suporte dedicado 24/7"
+      }
+    }
+  },
+  "BuiltUsingTools": {
+    "builtForLumo": "Construído para Lumo"
+  },
+  "howItWorks": {
+    "label": "Como Funciona",
+    "heading": "4 Etapas para Automatizar seu Trading",
+    "description": "Nossa plataforma foi criada para simplificar sua rotina com automação total e segurança.",
+    "step1": {
+      "title": "Agende sua Ordem",
+      "description": "Defina o ativo, direção, preço e horário para execução automática."
+    },
+    "step2": {
+      "title": "Configure o Bot",
+      "description": "Escolha entre estratégias pré-definidas ou personalize com IA."
+    },
+    "step3": {
+      "title": "Execute com Segurança",
+      "description": "Ordens são executadas automaticamente via APIs oficiais das exchanges."
+    },
+    "step4": {
+      "title": "Monitore e Escale",
+      "description": "Acompanhe o desempenho em tempo real e ajuste conforme sua estratégia."
+    }
+  },
+  "navigation": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "profile": "Perfil"
+  },
+  "pages": {
+    "home": {
+      "title": "Página Inicial",
+      "description": "Bem-vindo à nossa aplicação"
+    },
+    "about": {
+      "title": "Sobre",
+      "description": "Saiba mais sobre nós"
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "createAccount": "Create Free Account",
+    "startNow": "Start now",
+    "brand": "Lumo"
+  },
+  "hero": {
+    "imageAlt": "Lumo Dashboard",
+    "badge": "SaaS Trading Platform",
+    "title": {
+      "line1": "Build your journey",
+      "highlight": "in trading with {brand}"
+    },
+    "description": "The SaaS trading platform combining speed, security, and innovation.",
+    "cta": {
+      "start": "Start investing",
+      "demo": "View demo account"
+    },
+    "rating": "2FA enabled",
+    "apis": "Binance/Bybit APIs (coming soon)"
+  },
+  "header": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "myProfile": "My Profile",
+    "logout": "Logout",
+    "download": "Download",
+    "downloadApp": "Download App",
+    "notifications": "Notifications",
+    "noNotifications": "No notifications"
+  },
+  "navbar": {
+    "buySell": {
+      "label": "Buy/Sell",
+      "market": "Market",
+      "otc": "OTC"
+    },
+    "trade": {
+      "label": "Trade",
+      "spot": "Spot",
+      "futures": "Futures",
+      "newCoins": "New Coins",
+      "trending": "Trending",
+      "perpetuos": "Perpetuals",
+      "delivery": "Delivery Contracts",
+      "alavancagem": "Leverage",
+      "bots": "Trading Bots",
+      "simulador": "Simulator"
+    },
+    "institutional": {
+      "label": "Institutional",
+      "about": "About Us",
+      "partners": "Partners"
+    },
+    "tutorials": {
+      "label": "Tutorials",
+      "beginner": "Beginner Guide",
+      "advanced": "Advanced",
+      "blog": "Blog",
+      "help": "Help"
+    }
+  },
+  "features": {
+    "verified": "✅ Verified by Professional Traders",
+    "title": "Advanced Features",
+    "heading": "Why choose {brand}?",
+    "description": "Boost your performance with a smart, secure platform built for modern traders.",
+    "feature1": {
+      "title": "Full Automation",
+      "description": "Schedule orders, activate bots, and trade 24/7 without manual intervention."
+    },
+    "feature2": {
+      "title": "Bank-Level Security",
+      "description": "Secure connection with exchanges and Supabase authentication."
+    },
+    "feature3": {
+      "title": "Perpetuals & Delivery",
+      "description": "Native support for perpetual and delivery contracts in a single platform."
+    },
+    "feature4": {
+      "title": "AI Bots",
+      "description": "Adjust strategies based on machine learning and optimized signals."
+    },
+    "feature5": {
+      "title": "Smart Notifications",
+      "description": "Receive alerts via WhatsApp, Telegram, or email according to your preference."
+    },
+    "cta": "Start today and take your trading to the next level with {brand}.",
+    "ctaButton": "Create Free Account"
+  },
+  "notifications": {
+    "heading": "Full Control",
+    "title": "Choose how you want to be notified",
+    "subtitle": "Enable the channels you prefer to receive important notifications.",
+    "toggleLabel": "Enabled",
+    "footer": "All notifications can be adjusted later in the dashboard.",
+    "email": {
+      "label": "Email",
+      "description": "Receive updates about your orders and signals directly in your inbox."
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "Get real-time notifications on WhatsApp. Ideal for quick decisions."
+    },
+    "telegram": {
+      "label": "Telegram",
+      "description": "Connect your bot on Telegram and track everything easily."
+    }
+  },
+  "pricing": {
+    "getStarted": "Get Started",
+    "features": {
+      "premium": "Premium",
+      "new": "New"
+    },
+    "title": {
+      "line1": "Plans made for you",
+      "highlight": "Contact us for details"
+    },
+    "description": "Choose the plan that best suits your needs. Our prices are transparent and without hidden fees.",
+    "contactUs": "Contact us",
+    "savePercent": "Save {percent}%",
+    "saveAnnual": "Save on annual plan",
+    "fromPrice": "From {price}"
+  },
+  "BuiltUsingTools": {
+    "builtForLumo": "Built for Lumo"
+  },
+  "tiers": {
+    "starter": {
+      "name": "Starter",
+      "description": "Ideal for those starting automated trading.",
+      "badge": "Free",
+      "features": {
+        "bot1": "1 Active Bot",
+        "executionDelay": "Execution with 2s delay",
+        "exportCSV": "Export results to CSV"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "description": "For traders seeking more control, performance and integrations.",
+      "badge": "Most Popular",
+      "features": {
+        "bot5": "5 Simultaneous Bots",
+        "instantExecution": "Instant execution",
+        "performanceCharts": "Performance charts",
+        "telegramNotifications": "Telegram notifications",
+        "emailSupport": "Email support"
+      }
+    },
+    "advanced": {
+      "name": "Advanced",
+      "description": "For teams or advanced traders demanding the maximum from the platform.",
+      "badge": "Corporate",
+      "features": {
+        "unlimitedBots": "Unlimited bots",
+        "sso": "Single Sign-On (SSO)",
+        "strategyVersioning": "Strategy version control",
+        "assetLibrary": "Asset & template library",
+        "earlyAccess": "Early access to new features",
+        "dedicatedSupport": "Dedicated support"
+      }
+    }
+  }
+}

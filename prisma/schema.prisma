@@ -1,0 +1,58 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Exchange {
+  BINANCE
+  BYBIT
+}
+
+enum Permission {
+  READ
+  TRADE
+}
+
+model ApiKey {
+  id           String      @id @default(cuid())
+  userId       String?     // plugue com sua auth quando quiser
+  exchange     Exchange
+  label        String
+  apiKeyEnc    String      // ciphertext AES-GCM (API key)
+  secretEnc    String      // ciphertext AES-GCM (Secret key)
+  permission   Permission  @default(READ)
+  active       Boolean     @default(true)
+  fingerprint  String      // sha256 da API key (para deduplicar)
+  createdAt    DateTime    @default(now())
+  updatedAt    DateTime    @updatedAt
+  lastValidatedAt DateTime?
+
+  versions     ApiKeyVersion[]
+
+  @@index([userId])
+  @@index([exchange])
+  @@unique([exchange, fingerprint]) // evita mesma key duplicada por exchange
+}
+
+model ApiKeyVersion {
+  id         String   @id @default(cuid())
+  apiKeyId   String
+  apiKey     ApiKey   @relation(fields: [apiKeyId], references: [id], onDelete: Cascade)
+  version    Int
+  apiKeyEnc  String
+  secretEnc  String
+  rotatedAt  DateTime @default(now())
+  rotatedBy  String?  // userId que rotacionou, se houver
+
+  @@unique([apiKeyId, version])
+}

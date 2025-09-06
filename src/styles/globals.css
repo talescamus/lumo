@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* === Variáveis globais (tokens) === */
+:root {
+  --background: #0B0F15;
+  --foreground: #ffffff;
+}
+
+/* === Reset base === */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-smooth: always;
+}
+
+/* === Utilitários extras === */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+animate-gradient-slow {
+  background-size: 200% 200%;
+  animation: gradientMove 6s linear infinite;
+}
+
+@keyframes gradient-border {
+  0% {
+    border-image-source: linear-gradient(to right, #00ffa3, #00cfff, #0080ff);
+  }
+  50% {
+    border-image-source: linear-gradient(to right, #0080ff, #00cfff, #00ffa3);
+  }
+  100% {
+    border-image-source: linear-gradient(to right, #00ffa3, #00cfff, #0080ff);
+  }
+}
+
+.featured-border-gradient {
+  border-image-slice: 1;
+  border-radius: 1.5rem; /* arredonda as bordas */
+}

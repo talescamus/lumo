@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+
+    /* Se você quer que "@/..." aponte para "src/":
+       - mude baseUrl para "src"
+       - paths "@/ *" -> ["*"]
+       (Caso não use "src", deixe baseUrl como ".", e "@/ *" -> ["./*"]) */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+
+    // 👇 garante que Next veja sua config e mensagens de i18n NA RAIZ
+    "next-intl.config.ts",
+    "i18n/**/*.ts",
+    "i18n/**/*.json"
+  ],
+  "exclude": ["node_modules"]
+}

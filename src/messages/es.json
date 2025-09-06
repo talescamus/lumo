@@ -1,0 +1,206 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "loading": "Cargando...",
+    "error": "Error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "createAccount": "Crear Cuenta Gratis",
+    "startNow": "Comienza ahora",
+    "brand": "Lumo"
+  },
+  "hero": {
+    "imageAlt": "Panel de Lumo",
+    "badge": "Plataforma SaaS de Trading",
+    "title": {
+      "line1": "Construye tu camino",
+      "highlight": "en trading con {brand}"
+    },
+    "description": "La plataforma SaaS de trading que combina velocidad, seguridad e innovación.",
+    "cta": {
+      "start": "Comenzar a invertir",
+      "demo": "Ver cuenta demo"
+    },
+    "rating": "2FA habilitado",
+    "apis": "APIs Binance/Bybit (próximamente)"
+  },
+  "header": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "dashboard": "Panel",
+    "profile": "Perfil",
+    "myProfile": "Mi Perfil",
+    "logout": "Salir",
+    "download": "Descargar",
+    "downloadApp": "Descargar App",
+    "notifications": "Notificaciones",
+    "noNotifications": "Sin notificaciones"
+  },
+  "navbar": {
+    "buySell": {
+      "label": "Comprar/Vender",
+      "market": "Mercado",
+      "otc": "OTC"
+    },
+    "trade": {
+      "label": "Operar",
+      "spot": "Spot",
+      "futures": "Futuros",
+      "newCoins": "Nuevas Monedas",
+      "trending": "Tendencias",
+      "perpetuos": "Perpetuos",
+      "delivery": "Contratos Delivery",
+      "alavancagem": "Apalancamiento",
+      "bots": "Bots de Trading",
+      "simulador": "Simulador"
+    },
+    "institutional": {
+      "label": "Institucional",
+      "about": "Sobre Nosotros",
+      "partners": "Socios"
+    },
+    "tutorials": {
+      "label": "Tutoriales",
+      "beginner": "Guía para principiantes",
+      "advanced": "Avanzado",
+      "blog": "Blog",
+      "help": "Ayuda"
+    },
+  "pricing": {
+    "getStarted": "Comenzar ahora"
+  }
+},
+  "features": {
+    "verified": "✅ Verificado por Traders Profesionales",
+    "title": "Funciones Avanzadas",
+    "heading": "¿Por qué elegir {brand}?",
+    "description": "Potencia tu rendimiento con una plataforma inteligente, segura y diseñada para el trader moderno.",
+    "feature1": {
+      "title": "Automatización Total",
+      "description": "Programa órdenes, activa bots y opera 24/7 sin intervención manual."
+    },
+    "feature2": {
+      "title": "Seguridad Bancaria",
+      "description": "Conexión segura con exchanges y autenticación con Supabase."
+    },
+    "feature3": {
+      "title": "Perpetuos & Delivery",
+      "description": "Soporte nativo a contratos perpetuos y de entrega en una sola plataforma."
+    },
+    "feature4": {
+      "title": "Bots con IA",
+      "description": "Ajuste de estrategias basado en machine learning y señales optimizadas."
+    },
+    "feature5": {
+      "title": "Notificaciones Inteligentes",
+      "description": "Recibe alertas por WhatsApp, Telegram o correo según tu preferencia."
+    },
+    "cta": "Comienza hoy y lleva tu trading al siguiente nivel con {brand}.",
+    "ctaButton": "Crear Cuenta Gratis"
+  },
+  "notifications": {
+    "heading": "Control Total",
+    "title": "Elige cómo quieres ser notificado",
+    "subtitle": "Activa los canales que prefieras para recibir notificaciones importantes.",
+    "toggleLabel": "Activado",
+    "footer": "Todas las notificaciones se pueden ajustar más tarde en el panel de control.",
+    "email": {
+      "label": "Correo",
+      "description": "Recibe actualizaciones sobre tus órdenes y señales directamente en tu bandeja de entrada."
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "description": "Recibe notificaciones en tiempo real en WhatsApp. Ideal para decisiones rápidas."
+    },
+    "telegram": {
+      "label": "Telegram",
+      "description": "Conecta tu bot en Telegram y sigue todo con facilidad."
+    }
+  },
+  "pricing": {
+  "getStarted": "Comenzar ahora",
+  "title": {
+    "line1": "Planes hechos para ti",
+    "highlight": "Consúltanos para más detalles"
+  },
+  "description": "Elige el plan que mejor se adapte a tus necesidades. Nuestros precios son transparentes y sin tarifas ocultas.",
+  "contactUs": "Consúltanos",
+  "savePercent": "Ahorra {percent}%",
+  "saveAnnual": "Ahorra con el plan anual",
+  "fromPrice": "Desde {price}",
+  "plans": {
+    "free": {
+      "name": "Gratis",
+      "price": "€0",
+      "features": [
+        "Acceso limitado",
+        "Soporte básico",
+        "Funciones iniciales"
+      ],
+      "button": "Comenzar gratis"
+    },
+    "pro": {
+      "name": "Profesional",
+      "price": "€49/mes",
+      "features": [
+        "Acceso completo",
+        "Soporte prioritario",
+        "Herramientas avanzadas"
+      ],
+      "button": "Suscribirse ahora"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Personalizado",
+      "features": [
+        "Soluciones a medida",
+        "Soporte dedicado",
+        "Integraciones avanzadas"
+      ],
+      "button": "Contáctanos"
+    }
+  }
+},
+  "BuiltUsingTools": {
+    "builtForLumo": "Construido para Lumo"
+  },
+  "howItWorks": {
+    "label": "Cómo Funciona",
+    "heading": "4 Pasos para Automatizar tu Trading",
+    "description": "Nuestra plataforma fue creada para simplificar tu rutina con automatización total y seguridad.",
+    "step1": {
+      "title": "Programa tu Orden",
+      "description": "Define el activo, dirección, precio y horario para ejecución automática."
+    },
+    "step2": {
+      "title": "Configura el Bot",
+      "description": "Elige estrategias predefinidas o personaliza con IA."
+    },
+    "step3": {
+      "title": "Ejecuta con Seguridad",
+      "description": "Las órdenes se ejecutan automáticamente vía APIs oficiales de los exchanges."
+    },
+    "step4": {
+      "title": "Monitorea y Escala",
+      "description": "Sigue el rendimiento en tiempo real y ajusta según tu estrategia."
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre",
+    "contact": "Contacto",
+    "profile": "Perfil"
+  },
+  "pages": {
+    "home": {
+      "title": "Página Principal",
+      "description": "Bienvenido a nuestra aplicación"
+    },
+    "about": {
+      "title": "Sobre",
+      "description": "Conoce más sobre nosotros"
+    }
+  }
+}
